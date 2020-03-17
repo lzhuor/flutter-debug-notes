@@ -1,6 +1,10 @@
 # flutter-debug-notes
 📒Debug notes of Flutter Development 🐛
 
+## Dart
+### 1. `final` vs `const`
+Anything that isn't known at compile time should be final over const.
+
 ## Signing
 ### 1. iOS 13.1 Real Device Signing issue
 *Error*:
