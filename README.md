@@ -1,4 +1,4 @@
-# flutter-debug-notes
+# flutter-cheatsheet
 📒Debug notes of Flutter Development 🐛
 
 ## Widgets
