@@ -1,6 +1,14 @@
 # flutter-debug-notes
 📒Debug notes of Flutter Development 🐛
 
+## Widgets
+1. Get the position of a Widget
+```dart
+RenderBox box = context.findRenderObject();
+Position position = box.localToGlobal(Offset.zero)
+double dx = position.dx;
+```
+
 ## Dart
 ### 1. `final` vs `const`
 Anything that isn't known at compile time should be final over const.
